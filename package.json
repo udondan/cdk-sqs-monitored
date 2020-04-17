@@ -1,6 +1,10 @@
 {
   "name": "udondan-test-package",
   "description": "Test package",
+  "author": {
+    "name": "Test",
+    "email": "test@example.com"
+  },
   "version": "0.0.2",
   "main": "lib/index.js",
   "license": "MIT",
