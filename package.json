@@ -1,18 +1,13 @@
 {
-  "name": "cdk-sqs-monitored",
-  "description": "AWS CDK SQS Construct with alarms and dead letter queue",
-  "author": {
-    "name": "Kamil Biela",
-    "email": "kamil.biela@gmail.com",
-    "url": "https://kamilbiela.github.io"
-  },
-  "version": "1.0.2",
+  "name": "udondan-test-package",
+  "description": "Test package",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "license": "MIT",
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kamilbiela/cdk-sqs-monitored.git"
+    "url": "https://github.com/udondan/cdk-sqs-monitored.git"
   },
   "scripts": {
     "build": "jsii",
@@ -22,24 +17,7 @@
   },
   "jsii": {
     "outdir": "dist",
-    "targets": {
-      "python": {
-        "distName": "cdk-sqs-monitored",
-        "module": "cdk_sqs_monitored"
-      },
-      "java": {
-        "package": "com.github.kamilbiela.sqsmonitored",
-        "maven": {
-          "groupId": "com.github.kamilbiela",
-          "artifactId": "cdk-sqs-monitored"
-        }
-      },
-      "dotnet": {
-        "namespace": "Kamilbiela.CdkSqsMonitored",
-        "packageId": "Kamilbiela.CdkSqsMonitoredPackage",
-        "signAssembly": false
-      }
-    }
+    "targets": {}
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.32.2",
